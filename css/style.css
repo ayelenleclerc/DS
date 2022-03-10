@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .titulo {
@@ -9,4 +10,42 @@
 
 .nav {
     justify-content: flex-end;
+}
+
+/*  MAIN INDEX */
+
+.main__title,
+.aside__title {
+    margin-top: 4rem;
+    text-align: center;
+    color: rgb(252, 242, 242);
+}
+
+.card {
+    box-shadow: 0 .5rem 1rem #f5f4f4b0;
+}
+
+
+.card__list {
+    list-style: none;
+}
+
+.card__title--simple {
+    text-decoration: none;
+}
+
+
+
+.nos p {
+    color: rgb(252, 242, 242);
+}
+
+.nosotros {
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.footer__item {
+    text-decoration: none;
+    color: rgb(252, 242, 242);
 }
