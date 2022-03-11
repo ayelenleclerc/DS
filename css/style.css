@@ -4,6 +4,7 @@
 
 }
 
+/* HEADER */
 .titulo {
     color: rgb(252, 242, 242);
 }
@@ -28,13 +29,20 @@
 
 .card__list {
     list-style: none;
+    padding: 0;
 }
 
 .card__title--simple {
     text-decoration: none;
 }
 
+/* ASIDE */
+.aside__container {
+    justify-content: space-evenly;
+}
 
+
+/* NOSOTROS MAIN */
 
 .nos p {
     color: rgb(252, 242, 242);
@@ -45,7 +53,18 @@
     border-radius: 50%;
 }
 
+/* FOOTER */
 .footer__item {
     text-decoration: none;
     color: rgb(252, 242, 242);
+}
+
+@media screen and (max-width:480px) {
+    .aside__container {
+        justify-content: center;
+    }
+
+    .aside__card {
+        margin: 3rem;
+    }
 }
