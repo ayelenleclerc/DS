@@ -56,6 +56,10 @@
     font-size: 0.7rem;
 }
 
+.vacio {
+    min-height: 450px;
+}
+
 /* CATALOGO */
 
 
